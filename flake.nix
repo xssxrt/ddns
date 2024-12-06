@@ -16,7 +16,7 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           venvDir = ".venv";
-          packages = with pkgs; [ python312 age sops ruff ] ++
+          packages = with pkgs; [ pyright python312 age sops ruff ] ++
             (with pkgs.python312Packages; [
               requests
               pyyaml

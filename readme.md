@@ -11,3 +11,6 @@ sops -d secrets.enc.yaml
 Make sure your key is defined in your sops config dir in the form of: 
 .../sops/age/keys.txt
 
+Add additional age pub keys to `.sops.yaml`
+Update the encrypted secrets with `sops updatekeys <file>`
+
