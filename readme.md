@@ -14,3 +14,6 @@ Make sure your key is defined in your sops config dir in the form of:
 Add additional age pub keys to `.sops.yaml`
 Update the encrypted secrets with `sops updatekeys <file>`
 
+
+# TODO
+- September 2025, need to update script to handle any number of domains, only noticed after rebuilding my homelab
